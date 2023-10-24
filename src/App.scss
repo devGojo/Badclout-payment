@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+
+  header {
+    height: 60px;
+    background: black;
+    display: flex;
+  }
+
+  .smirk{
+    cursor: pointer;
+  }
+
+  .slogan{
+    cursor: pointer;
+  }
+
+.lupa{
+  position: relative;
+  left: 180px;
+  cursor: pointer;
+}
+
+  .mano{
+    padding-left: 33vw;
+    margin-top: 20px;
+    width: 40px;
+    height: 20px;
+    margin-left:100px;
+  }
+
+  .silhueta {
+    position: relative;
+    right: 80px;
+    top: 7px;
+    width: 30px;
+    height: 30px;
+    margin-left: 280px;
+    margin-top:10px;
+    cursor:pointer
+  }
+
+
+  .carrinho{
+    width: 30px;
+    height: 30px;
+    margin-top: 17px;
+    margin-left: 50px;
+    cursor: pointer;
+  } 
+
+  .money{
+    position: absolute;
+    right: 49px;
+    top: 1px;
+    color: white;
+    font-size: 15px;
+  }
+
+  .din{
+    position: absolute;
+    right: 7px;
+    top: 1px;
+    margin: 27px;
+    height:100px;
+    color: white;
+    font-size: 15px;
+  }
+
+  h3{
+    position: absolute;
+    right: 190px;
+    top: -12px;
+    margin: 27px;
+    height:100px;
+    color: white;
+    font-size: 12px;
+  }
+
+  .conect{
+      position: absolute;
+      right: 198px;
+      top: 3px;
+      margin: 27px;
+      height:100px;
+      color: white;
+      font-size: 12px;
+      cursor: pointer;
+  }
+  .conect:hover{
+    text-decoration: underline;
+  }
+
+  .h2{
+    position: absolute;
+      right: 198px;
+      top: 3px;
+      margin: 27px;
+      height:100px;
+      color: white;
+      font-size: 12px;
+  }
+}
