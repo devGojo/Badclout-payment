@@ -1,10 +1,14 @@
 import './App.scss';
 import { useState } from 'react';
 import smirk from '../src/assets/images/bad-yellow.png';
+import pix from '../src/assets/images/pix.png';
 import slogann from '../src/assets/images/yellow bad 1.png';
 import silhueta from '../src/assets/images/silhueta.png';
 import lupa from '../src/assets/images/LUPA.png';
 import carrinho from '../src/assets/images/carrinho.png';
+import vector from '../src/assets/images/Vector 32.png';
+import cartão from '../src/assets/images/carta.png';
+import barras from '../src/assets/images/barras.png';
 import axios from 'axios';
 
 
@@ -32,10 +36,27 @@ function App() {
       <h1 className='din'>R$ 00,00 BRL</h1>
       </div>
     
-       <h2>Brands</h2>
+       <h1 className='bando'>Brands</h1>
+
+       <h1 className='tenis'>Sneakers</h1>
+
+       <h1 className='shop'>Shop</h1>
+
+       <h1 className='novas'>News</h1>
     </header>
     <section>
-   
+      <img src={vector} className='vector'/>
+
+        <h1 className='check'>CHECKOUT</h1>
+        <div className='yellow'>
+          <img/>
+          <h1 className='method'>Selecione o Método de pagamento</h1>
+          </div>
+          <div className='calculos'>
+              <div>
+               <img src={pix} className='PIX'/> <h1 className='pex'>PIX</h1> <h2 className='medi'>APROVAÇAO  IMEDIATA</h2>
+               </div>
+            </div>
         </section>
     </main>
   );

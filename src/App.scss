@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
 
 main {
   height: 100vh;
@@ -96,13 +99,131 @@ main {
     text-decoration: underline;
   }
 
-  .h2{
+  .bando{
+    font-family: 'Playpen Sans', cursive;
     position: absolute;
-      right: 198px;
+      right: 510px;
       top: 3px;
-      margin: 27px;
+      margin: 11px;
       height:100px;
       color: white;
-      font-size: 12px;
+      font-size: 19px;
+      cursor:pointer;
+  }
+
+  .bando:hover{
+    text-decoration: underline;
+  }
+
+  .tenis{
+    font-family: 'Playpen Sans', cursive;
+    position: absolute;
+      right: 640px;
+      top: 3px;
+      margin: 11px;
+      height:100px;
+      color: white;
+      font-size: 19px;
+      cursor:pointer;
+  }
+
+  .tenis:hover{
+    text-decoration: underline;
+  }
+
+  .shop{
+    font-family: 'Playpen Sans', cursive;
+    position: absolute;
+      right: 790px;
+      top: 3px;
+      margin: 11px;
+      height:100px;
+      color: white;
+      font-size: 19px;
+      cursor:pointer;
+  }
+
+  .shop:hover{
+    text-decoration: underline;
+  }
+
+  .novas{
+    font-family: 'Playpen Sans', cursive;
+    position: absolute;
+      right: 900px;
+      top: 3px;
+      margin: 11px;
+      height:100px;
+      color: white;
+      font-size: 19px;
+      cursor:pointer;
+  }
+
+  .novas:hover{
+    text-decoration: underline;
+  }
+
+  .vector{
+    margin: 40px;
+    position: relative;
+    right: 40px;
+    width: 100%;
+  }
+
+  .check{
+    font-family: 'Merriweather', serif;
+    position: relative;
+    left: 70vw;
+  }
+  
+  .method{
+    margin-left: 100px;
+    font-family: 'Paytone One', sans-serif;
+    font-size: medium;
+
+  }
+
+  .yellow{
+    width: 500px;
+    position: relative;
+    left: 10px;
+    height: 50px;
+    background-color: #FFCD29;
+    display: flex;
+    border-radius: 4px;
+    box-shadow: 0px 0px 1px 3px #000000;
+  }
+
+  .calculos{
+    width: 500px;
+    position: relative;
+    left: 10px;
+    height: 50px;
+    background-color: #FFFFFF;
+    display: flex;
+    border-radius: 1px;
+    box-shadow: 0px 0px 1px 3px #000000;
+    height: 600px;
+  }
+
+  .PIX{
+    margin: 10px;
+    height: 50px;
+    position: relative;
+    left: 5px;
+  }
+
+  .pex{
+    position: relative;
+    left: 160px;
+    margin: -65px;
+    font-size: 21px;
+  }
+
+  .medi{
+    position: relative;
+    left: 30px;
+    margin: 60px;
+    font-size: 13px;
   }
 }
