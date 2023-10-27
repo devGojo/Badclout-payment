@@ -23,7 +23,7 @@ function App() {
       <img src={lupa} className='lupa'/>
       </div>
 
-      <div className='perfil'>
+      <div>
       <img src={silhueta} className='silhueta'/>
       <h3>Minha conta</h3>
       <h3 className='conect'>Conecte-se</h3>
@@ -49,12 +49,17 @@ function App() {
 
         <h1 className='check'>CHECKOUT</h1>
         <div className='yellow'>
-          <img/>
           <h1 className='method'>Selecione o Método de pagamento</h1>
           </div>
           <div className='calculos'>
               <div>
                <img src={pix} className='PIX'/> <h1 className='pex'>PIX</h1> <h2 className='medi'>APROVAÇAO  IMEDIATA</h2>
+               </div>
+               <div>
+               <img src={cartão} className='card'/> <h1 className='car'>CARTÃO DE DEBITO</h1>
+               </div>
+               <div>
+               <img src={cartão} className='cart'/> <h1 className='cre'>CARTÃO DE CRÉDITO</h1>
                </div>
             </div>
         </section>

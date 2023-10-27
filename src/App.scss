@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
@@ -226,4 +225,33 @@ main {
     margin: 60px;
     font-size: 13px;
   }
+
+  .card{
+    margin: 130px;
+    height: 38px;
+    position: relative;
+    right:315px;
+  }
+  .car{
+    margin: -165px;
+    height: 38px;
+    position: relative;
+    left: 50px;
+    font-size: 21px;
+  }
+
+  .cart{
+    margin: 230px;
+    height: 38px;
+    position: relative;
+    right:719px;
+  }
+  .cre{
+    margin: -275px;
+    height: 38px;
+    position: relative;
+    right: 148px;
+    font-size: 21px;
+  }
+  
 }
