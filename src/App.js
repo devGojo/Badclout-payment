@@ -86,7 +86,8 @@ function App() {
       </div>
             <div className='checkin'>
               <div className='resumo'>
-                <h1>resumo do pedido</h1>
+                <p className='rest'>RESUMO DO PEDIDO</p>
+                <p className='edit'>Editar Carrinho</p>
               </div>
            </div>
 </div>
