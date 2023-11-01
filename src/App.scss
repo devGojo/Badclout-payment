@@ -189,15 +189,6 @@ main {
     font-size: medium;
   }
 
-
-  .calculos{
-    width: 500px;
-    background-color: #FFFFFF;
-    border-radius: 1px;
-    box-shadow: 0px 0px 1px 3px #000000;
-    height: 300px;
-  }
-
   .yellow{
     width: 500px;
     height: 50px;
@@ -207,6 +198,13 @@ main {
     box-shadow: 0px 0px 1px 3px #000000;
   }
 
+  .calculos{
+    width: 500px;
+    background-color: #ffffff;
+    border-radius: 1px;
+    box-shadow: 0px 0px 1px 3px #000000;
+    height: 300px;
+  }
 
   .piquis{
     display: flex;
@@ -286,4 +284,15 @@ padding: 20px;
     text-decoration: underline;
   }
 
+  .auto{
+    background-color: #FFCD29;
+    width: 589px;
+    border-radius: 1px;
+    box-shadow: 0px 0px 1px 3px #000000;
+    height: 50px;
+  }
+
+  .vajin{
+    background-color: red;
+  }
 }

@@ -57,9 +57,11 @@ function App() {
 
           <div className='calculos'>
             <div className='piquis'>
+
                 <div className='pix1'>
                   <img src={pix} className='PIX'/>
                 </div>
+
                 <div className='pix2'>
                   <h2>PIX</h2> 
                   <h4>APROVAÇAO IMEDIATA</h4>
@@ -84,13 +86,21 @@ function App() {
                </div>
           </div>
       </div>
+
             <div className='checkin'>
               <div className='resumo'>
                 <p className='rest'>RESUMO DO PEDIDO</p>
                 <p className='edit'>Editar Carrinho</p>
+            </div>
+
+              <div className='auto'>
+                  <div className='vajin'>
+                 <h1>Nike Dunk</h1>
+                  </div>
               </div>
-           </div>
-</div>
+              
+              </div>
+              </div>
         </section>
     </main>
   );
