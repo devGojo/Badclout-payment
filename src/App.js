@@ -8,7 +8,7 @@ import lupa from '../src/assets/images/LUPA.png';
 import carrinho from '../src/assets/images/carrinho.png';
 import vector from '../src/assets/images/Vector 32.png';
 import cartão from '../src/assets/images/carta.png';
-import barras from '../src/assets/images/barras.png';
+import dunk from '../src/assets/images/dunklow.png';
 import axios from 'axios';
 
 
@@ -95,8 +95,15 @@ function App() {
 
               <div className='auto'>
                   <div className='vajin'>
-                 <h1>Nike Dunk</h1>
+                    <div className='box'></div>
+                 <p>NIKE - Dunk Low “Paisley Black”</p>
+                 <h1 className='price'>R$1.799,99</h1>
                   </div>
+                 <div className='land'>
+                  <div>
+                    <h1>Entrega</h1>
+                  </div>
+                  </div> 
               </div>
               
               </div>
