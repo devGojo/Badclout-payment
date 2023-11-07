@@ -3,24 +3,86 @@
 @import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
 
 main {
-  height: 100vh;
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
+}
 
   header {
-    height: 100wh;
+    width: 100%;
+    height: 100%;
     background: black;
     display: flex;
   }
 
   .smirk{
     cursor: pointer;
+    width: auto;
   }
 
   .slogan{
     cursor: pointer;
+    width: auto;
   }
+
+
+  .option1{
+  }
+
+  .news{
+    font-family: 'Playpen Sans', cursive;
+      display: flex;
+      
+      cursor:pointer;
+  }
+
+  .novas:hover{
+    text-decoration: underline;
+  }
+  
+  .bando{
+    font-family: 'Playpen Sans', cursive;
+    position: absolute;
+      right: 510px;
+      top: 3px;
+      margin: 11px;
+      height:100px;
+      color: white;
+      font-size: 19px;
+      cursor:pointer;
+  }
+
+  .bando:hover{
+    text-decoration: underline;
+  }
+
+  .tenis{
+    font-family: 'Playpen Sans', cursive;
+    position: absolute;
+      right: 640px;
+      top: 3px;
+      margin: 11px;
+      height:100px;
+      color: white;
+      font-size: 19px;
+      cursor:pointer;
+  }
+
+  .tenis:hover{
+    text-decoration: underline;
+  }
+
+  .shop{
+    font-family: 'Playpen Sans', cursive;
+ 
+      color: white;
+      font-size: 19px;
+      cursor:pointer;
+  }
+
+  .shop:hover{
+    text-decoration: underline;
+  }
+
 
 .lupa{
   position: relative;
@@ -98,86 +160,21 @@ main {
     text-decoration: underline;
   }
 
-  .bando{
-    font-family: 'Playpen Sans', cursive;
-    position: absolute;
-      right: 510px;
-      top: 3px;
-      margin: 11px;
-      height:100px;
-      color: white;
-      font-size: 19px;
-      cursor:pointer;
-  }
-
-  .bando:hover{
-    text-decoration: underline;
-  }
-
-  .tenis{
-    font-family: 'Playpen Sans', cursive;
-    position: absolute;
-      right: 640px;
-      top: 3px;
-      margin: 11px;
-      height:100px;
-      color: white;
-      font-size: 19px;
-      cursor:pointer;
-  }
-
-  .tenis:hover{
-    text-decoration: underline;
-  }
-
-  .shop{
-    font-family: 'Playpen Sans', cursive;
-    position: absolute;
-      right: 790px;
-      top: 3px;
-      margin: 11px;
-      height:100px;
-      color: white;
-      font-size: 19px;
-      cursor:pointer;
-  }
-
-  .shop:hover{
-    text-decoration: underline;
-  }
-
-  .novas{
-    font-family: 'Playpen Sans', cursive;
-    position: absolute;
-      right: 900px;
-      top: 3px;
-      margin: 11px;
-      height:100px;
-      color: white;
-      font-size: 19px;
-      cursor:pointer;
-  }
-
-  .novas:hover{
-    text-decoration: underline;
-  }
 
   .vector{
-    margin: 40px;
-    position: relative;
-    right: 40px;
+    margin-top: 70px;
     width: 100%;
   }
 
   .check{
+    display: flex;
     font-family: 'Merriweather', serif;
-    position: relative;
-    left: 70vw;
+    margin-left: 66vw;
+    margin-top: 80px;
   }
   
   .mãe{
     display: flex;
-    background-color: aqua;
     flex-direction: row;
     justify-content: space-around;
     padding: 20px;
@@ -311,8 +308,54 @@ padding: 20px;
   }
 
   .price {
-    font-size: 19px;
+    font-size: 16px;
     margin-left: 160px;
     color: #616060;
   }
-}
+
+  .land{
+    background-color: #ffffff;
+    width: 590px;
+    border-radius: 1px;
+    box-shadow: 0px 0px 1px 3px #000000;
+    height: 90px;
+    margin:0px;
+    display: flex;
+  }
+
+  .pork{
+   margin-left: 19px;
+   margin-top: 27px;
+   font-family: 'Merriweather', serif;
+  }
+
+  .free{
+    margin-top: 38px;
+    margin-left: 23vw;
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+  }
+
+  .tot{
+    background-color: #ffffff;
+    width: 590px;
+    border-radius: 1px;
+    box-shadow: 0px 0px 1px 3px #000000;
+    height: 90px;
+    margin:0px;
+    display: flex;
+  }
+
+  .total{
+    font-family: 'Merriweather', serif;
+    margin-left: 19px;
+    margin-top: 32px;
+    font-size: 23px;
+  }
+
+  .cash{
+    font-size: 16px;
+    margin-top: 38px;
+    margin-left: 28vw;
+  }
+

@@ -19,6 +19,18 @@ function App() {
       <img src={smirk} className='smirk' />
       <img src={slogann} className='slogan'/>
 
+    <div className='option1'>
+      <h1 className='news'>News</h1>
+      </div>
+
+      
+      <h1 className='bando'>Brands</h1>
+
+      <h1 className='tenis'>Sneakers</h1>
+
+      <h1 className='shop'>Shop</h1>
+    
+
       <div className='mano'>
       <img src={lupa} className='lupa'/>
       </div>
@@ -35,15 +47,9 @@ function App() {
       <h1 className='money'>carrinho</h1>
       <h1 className='din'>R$ 00,00 BRL</h1>
       </div>
-    
-       <h1 className='bando'>Brands</h1>
 
-       <h1 className='tenis'>Sneakers</h1>
-
-       <h1 className='shop'>Shop</h1>
-
-       <h1 className='novas'>News</h1>
     </header>
+
     <section>
       <img src={vector} className='vector'/>
 
@@ -95,17 +101,32 @@ function App() {
 
               <div className='auto'>
                   <div className='vajin'>
+
                     <div className='box'></div>
+
                  <p>NIKE - Dunk Low “Paisley Black”</p>
-                 <h1 className='price'>R$1.799,99</h1>
+                 <h1 className='price'>R$1.799,99 BRL</h1>
+
                   </div>
-                 <div className='land'>
-                  <div>
-                    <h1>Entrega</h1>
-                  </div>
-                  </div> 
+
               </div>
               
+              <div className='land'>
+                 
+                 <h2 className='pork'>Entrega</h2>
+              
+                 <h4 className='free'>Frete Grátis (7 a 15 Dias)</h4>
+                 
+               </div> 
+
+
+               <div className='tot'>
+                 
+                 <h2 className='total'>TOTAL</h2>
+              
+                 <h4 className='cash'> R$1.799,99 BRL</h4>
+                 
+               </div> 
               </div>
               </div>
         </section>
