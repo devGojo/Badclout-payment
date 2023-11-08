@@ -16,38 +16,32 @@ function App() {
   return (
     <main>
     <header>
+      <div className='logos'>
       <img src={smirk} className='smirk' />
       <img src={slogann} className='slogan'/>
-
-    <div className='option1'>
-      <h1 className='news'>News</h1>
       </div>
 
-      
-      <h1 className='bando'>Brands</h1>
+    <div className='textos'>
+    <p className='nuss'> NEWS</p>             
+    <p className='shups'> SHOP</p>
+    <p className='sneaker'> SNEAKERS</p>
+    <p className='brand'> BRANDS</p>
 
-      <h1 className='tenis'>Sneakers</h1>
+    </div>
 
-      <h1 className='shop'>Shop</h1>
     
+    <img className='lupa' src={lupa} />
+    <div className='conta'>
+    <img src= {silhueta} />
+    <p>Minha Conta</p>
+    <p className='conection'>Conecte-se</p>
+    
+    </div>
 
-      <div className='mano'>
-      <img src={lupa} className='lupa'/>
-      </div>
-
-      <div>
-      <img src={silhueta} className='silhueta'/>
-      <h3>Minha conta</h3>
-      <h3 className='conect'>Conecte-se</h3>
-      </div>
-
-
-      <div className='banco'>
-      <img src={carrinho} className='carrinho'/>
-      <h1 className='money'>carrinho</h1>
-      <h1 className='din'>R$ 00,00 BRL</h1>
-      </div>
-
+    <div className='carrinho'>
+      <img src={carrinho} />
+      <p>R$0, 00 BRL</p>
+    </div>
     </header>
 
     <section>

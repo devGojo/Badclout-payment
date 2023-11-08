@@ -12,112 +12,99 @@ main {
     height: 100%;
     background: black;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
 
-  .smirk{
+   .logos {
+    display: flex;
+    flex-direction: row;
+
+   }
+
+   .logos img {
+    width: 100px;
+    height: 100px;
+   }
+
+
+   .textos {
+    display: flex;
+    flex-direction: row;
+    color: #ffff;
+   }
+
+   .textos p {
+    font-family: 'Playpen Sans', cursive;
+    margin: 20px;
     cursor: pointer;
-    width: auto;
-  }
+   }
 
-  .slogan{
-    cursor: pointer;
-    width: auto;
-  }
-
-
-  .option1{
-  }
-
-  .news{
-    font-family: 'Playpen Sans', cursive;
-      display: flex;
-      
-      cursor:pointer;
-  }
-
-  .novas:hover{
+   .nuss:hover{
     text-decoration: underline;
-  }
-  
-  .bando{
-    font-family: 'Playpen Sans', cursive;
-    position: absolute;
-      right: 510px;
-      top: 3px;
-      margin: 11px;
-      height:100px;
-      color: white;
-      font-size: 19px;
-      cursor:pointer;
-  }
+   }
 
-  .bando:hover{
+   .shups:hover{
     text-decoration: underline;
-  }
+   }
 
-  .tenis{
-    font-family: 'Playpen Sans', cursive;
-    position: absolute;
-      right: 640px;
-      top: 3px;
-      margin: 11px;
-      height:100px;
-      color: white;
-      font-size: 19px;
-      cursor:pointer;
-  }
-
-  .tenis:hover{
+   .sneaker:hover{
     text-decoration: underline;
-  }
+   }
 
-  .shop{
-    font-family: 'Playpen Sans', cursive;
- 
-      color: white;
-      font-size: 19px;
-      cursor:pointer;
-  }
-
-  .shop:hover{
+   .brand:hover{
     text-decoration: underline;
-  }
+   }
 
 
-.lupa{
-  position: relative;
-  left: 180px;
-  cursor: pointer;
-}
-
-  .mano{
-    padding-left: 33vw;
-    margin-top: 20px;
-    width: 40px;
+   .lupa {
+    width: 30px;
     height: 20px;
-    margin-left:100px;
-  }
-
-  .silhueta {
-    position: relative;
-    right: 80px;
-    top: 7px;
-    width: 30px;
-    height: 30px;
-    margin-left: 270px;
-    margin-top:10px;
-    cursor:pointer
-  }
-
-
-  .carrinho{
-    width: 30px;
-    height: 30px;
-    margin-top: 17px;
-    margin-left: 50px;
     cursor: pointer;
-  } 
+   }
 
+   .conta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   }
+
+   .conta img {
+    height: 38px;
+    width: 38px;
+    margin: 10px;
+   }
+
+   .conta p{
+    display: flex;
+    color: #ffff;
+    width: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px ;
+   }
+
+   .conection {
+    display: flex;
+    color: #ffff;
+    width: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+   }
+
+   .carrinho {
+    display: flex;
+    flex-direction: row;
+    color: #ffff;
+   }
+
+   .carrinho img {
+    height: 40px;
+    width: 40px;
+   }
   .money{
     position: absolute;
     right: 49px;
